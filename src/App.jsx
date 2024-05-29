@@ -24,7 +24,7 @@ const App = () => {
         </div>
       </div>
       <div className="flex-grow h-full flex justify-center items-center">
-        <div className="my-4 flex flex-col w-2/3 md:w-1/4">
+        <div className="my-4 flex flex-col w-full md:w-1/4">
           <textarea
             id="messageOutput"
             value={output}
