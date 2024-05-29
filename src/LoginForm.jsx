@@ -9,7 +9,7 @@ const LoginForm = ({ setOutput }) => {
         const loginData = { username, password };
 
         try {
-            const response = await fetch('http://65.0.168.241:8090/login', {
+            const response = await fetch('http://13.234.92.253:8090/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

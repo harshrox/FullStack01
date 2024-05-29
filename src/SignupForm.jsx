@@ -12,7 +12,7 @@ const SignupForm = ({ setOutput }) => {
     const signupData = { name, username, email, branch, password };
 
     try {
-      const response = await fetch('http://65.0.168.241:8090/signup', {
+      const response = await fetch('http://13.234.92.253:8090/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
